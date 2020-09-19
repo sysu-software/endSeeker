@@ -305,6 +305,7 @@ void usage(void)
   fprintf(stderr, "%s", "Usage:  endSeeker [options] --fa <genome seq> --fai <fai file> --gene <bed12 file> --treat <alignments> --input <input alignments>\n\
 endSeeker: A computational software for identifying 2’-O-Methylation sites from Nm-REP-seq data.\n\
 [options]\n\
+<<<<<<< HEAD
 --fa <string>                  : genome sequence<fasta format>[Required]\n\
 --fai <string>                 : genome fai file<fai format>[Required].\n\
                                  using \"samtools faidx\" to generate fai file\n\
@@ -324,6 +325,27 @@ endSeeker: A computational software for identifying 2’-O-Methylation sites fro
 -w/--window <int>              : window size around the end position[default=20]\n\
 -l/--min-len <int>             : minimum length of reads, default=15\n\
 -L/--max-len <int>             : maximum length of reads, default=1000\n\
+=======
+--fa <string>             : genome sequence<fasta format>[Required]\n\
+--fai <string>            : genome fai file<fai format>[Required].\n\
+                            using \"samtools faidx\" to generate fai file\n\
+--gene <string>           : gene file <BED12 format>[Required]\n\
+--treat <string>          : file treated by mgR/mgR+OED file<BAM format>[Required]\n\
+--input <string>          : input file<BAM format>[Required]\n\
+-v/--verbose              : verbose information\n\
+-V/--version              : endSeeker version\n\
+-h/--help                 : help informations\n\
+-s/--strand               : strand-specific sequencing data\n\
+-n/--norm                 : normalized reads to the locus number\n\
+-c/--collapser            : keep duplication, deault is false\n\
+-o/--outfile <string>     : output file\n\
+-t/--min-tag <double>     : minimum tag number for each end site, default>=5.0 read\n\
+-r/--rpm <double>         : minimum rpm value for each end site, default>=0.001\n\
+-f/--fold <int>           : minimum fold-change[default>=1.0]\n\
+-w/--window <int>         : window size around the end position[default=20]\n\
+-l/--min-len <int>        : minimum length of reads, default=15\n\
+-L/--max-len <int>        : maximum length of reads, default=1000\n\
+>>>>>>> 7892d4cd6df069fa6885dd3e575220909e841256
 ");
   exit(1);
 }
