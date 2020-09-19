@@ -7,28 +7,28 @@ endSeeker is an software to identify novel Nm sites by calculating the 3'-end co
 
 Usage:
 ---------
-Usage:  endSeeker [options] --fa <genome seq> --fai <fai file> --gene <bed12 file> --treat <alignments> --input <input alignments>
-endSeeker: A computational software for identifying 2'-O-Methylation sites from Nm-REP-seq data.
-[options]
---fa <string>          : genome sequence<fasta format>[Required]
---fai <string>         : genome fai file<fai format>[Required].
-                         using "samtools faidx" to generate fai file
---gene <string>        : gene file <BED12 format>[Required]
---treat <string>       : file treated by mgR/mgR+OED file<BAM format>[Required]
---input <string>       : input file<BAM format>[Required]
--v/--verbose           : verbose information
--V/--version           : endSeeker version
--h/--help              : help informations
--s/--strand            : strand-specific sequencing data
--n/--norm              : normalized reads to the locus number
--c/--collapser         : keep duplication, deault is false
--o/--outfile <string>  : output file
--t/--min-tag <double>  : minimum tag number for each end site, default>=5.0 read
--r/--rpm <double>      : minimum rpm value for each end site, default>=0.001
--f/--fold <int>        : minimum fold-change[default>=1.0]
--w/--window <int>      : window size around the end position[default=20]
--l/--min-len <int>     : minimum length of reads, default=15
--L/--max-len <int>     : maximum length of reads, default=1000
+Usage:  endSeeker [options] --fa <genome seq> --fai <fai file> --gene <bed12 file> --treat <alignments> --input <input alignments><BR>
+endSeeker: A computational software for identifying 2'-O-Methylation sites from Nm-REP-seq data.<BR>
+[options]<BR>
+--fa <string>          : genome sequence<fasta format>[Required]<BR>
+--fai <string>         : genome fai file<fai format>[Required].<BR>
+                         using "samtools faidx" to generate fai file<BR>
+--gene <string>        : gene file <BED12 format>[Required]<BR>
+--treat <string>       : file treated by mgR/mgR+OED file<BAM format>[Required]<BR>
+--input <string>       : input file<BAM format>[Required]<BR>
+-v/--verbose           : verbose information<BR>
+-V/--version           : endSeeker version<BR>
+-h/--help              : help informations<BR>
+-s/--strand            : strand-specific sequencing data<BR>
+-n/--norm              : normalized reads to the locus number<BR>
+-c/--collapser         : keep duplication, deault is false<BR>
+-o/--outfile <string>  : output file<BR>
+-t/--min-tag <double>  : minimum tag number for each end site, default>=5.0 read<BR>
+-r/--rpm <double>      : minimum rpm value for each end site, default>=0.001<BR>
+-f/--fold <int>        : minimum fold-change[default>=1.0]<BR>
+-w/--window <int>      : window size around the end position[default=20]<BR>
+-l/--min-len <int>     : minimum length of reads, default=15<BR>
+-L/--max-len <int>     : maximum length of reads, default=1000<BR>
 
 
 Installation:<BR>
