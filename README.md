@@ -33,9 +33,9 @@ endSeeker: A computational software for identifying 2'-O-Methylation sites from 
 
 Installation:<BR>
 ---------
-Download endSeeker-0.1.tar.gz from https://github.com/sysu-software/endSeeker/releases ; unpack it, and make:<BR>
-tar -xzvf endSeeker-0.1.tar.gz<BR>
-cd endSeeker-0.1<BR>
+Download endSeeker-1.0.tar.gz from https://github.com/sysu-software/endSeeker/releases ; unpack it, and make:<BR>
+tar -xzvf endSeeker-1.0.tar.gz<BR>
+cd endSeeker-1.0<BR>
 make<BR>
 
 System requirements:
