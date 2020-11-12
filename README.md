@@ -7,7 +7,7 @@ endSeeker is an software to identify novel Nm sites by calculating the 3'-end co
 
 Usage:
 ---------
-Usage:  endSeeker [options] --fa <genome seq> --fai <fai file> --gene <bed12 file> --treat <alignments> --input <input alignments><BR>
+Usage:  endSeeker [options] --fa \<genome seq\> --fai \<fai file\> --gene \<bed12 file\> --treat \<alignments\> --input \<input alignments\><BR>
 endSeeker: A computational software for identifying 2'-O-Methylation sites from Nm-REP-seq data.<BR>
 [options]<BR>
 --fa <string>          : genome sequence<fasta format>[Required]<BR>
