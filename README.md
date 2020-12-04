@@ -3,7 +3,7 @@ endSeeker: A computational software for identifying 2'-O-Methylation sites from 
 
 Overview:
 ---------
-endSeeker is an software to identify novel Nm sites by calculating the 3'-end coverage of the candidate Nm sites from Nm-REP-seq data. 
+endSeeker is a software to identify novel Nm sites by calculating the 3'-end coverage of the candidate Nm sites from Nm-REP-seq data. 
 
 Usage:
 ---------
